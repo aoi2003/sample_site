@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宇宙探検サークル - 無限の冒険へ！</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#about">サークル紹介</a></li>
+                <li><a href="#activities">活動内容</a></li>
+                <li><a href="#schedule">活動予定</a></li>
+                <li><a href="#gallery">ギャラリー</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>宇宙探検サークルへようこそ！</h1>
+            <p>無限の冒険が、ここから始まる。</p>
+            <div id="news">
+                <h2>最新のお知らせ</h2>
+                <ul id="news-list"></ul>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>サークル紹介</h2>
+            <p>宇宙探検サークルは、宇宙に興味を持つ学生が集まり、天体観測や宇宙科学の学習を行うサークルです。</p>
+            <ul>
+                <li>設立：2020年</li>
+                <li>メンバー数：30名</li>
+                <li>活動場所：大学天文台、サークル室</li>
+            </ul>
+        </section>
+
+        <section id="activities">
+            <h2>活動内容</h2>
+            <p>主な活動は以下の通りです：</p>
+            <ul>
+                <li>定期的な天体観測会</li>
+                <li>宇宙科学セミナーの開催</li>
+                <li>プラネタリウム見学</li>
+                <li>ロケットの模型作り</li>
+            </ul>
+            <p>活動頻度：週1回（土曜日）</p>
+            <p>参加条件：宇宙に興味がある学生であれば誰でも歓迎！</p>
+        </section>
+
+        <section id="schedule">
+            <h2>活動予定</h2>
+            <div id="calendar"></div>
+            <ul id="events-list"></ul>
+        </section>
+
+        <section id="gallery">
+            <h2>ギャラリー</h2>
+            <div class="gallery">
+                <img src="/api/placeholder/200/200" alt="天体観測の様子">
+                <img src="/api/placeholder/200/200" alt="セミナーの様子">
+                <img src="/api/placeholder/200/200" alt="プラネタリウム見学">
+                <img src="/api/placeholder/200/200" alt="ロケット模型">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="お名前" required>
+                <input type="email" id="email" placeholder="メールアドレス" required>
+                <textarea id="message" placeholder="メッセージ" required></textarea>
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 宇宙探検サークル. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
